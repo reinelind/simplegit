@@ -1,0 +1,46 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  h1 {
+    color: #333;
+  }
+  
+  /* Paragraph styles */
+  p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* List styles */
+  ul {
+    color: #666;
+    margin-left: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .footer-icons i {
+    font-size: 20px;
+  }
+  
+  .footer-icons span {
+    font-size: 14px;
+  }
+  
