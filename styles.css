@@ -3,28 +3,35 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+    background-color: #f8f8f8;
   }
   
   /* Header styles */
   h1 {
     color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
   }
   
   /* Paragraph styles */
   p {
     color: #666;
     line-height: 1.5;
+    margin-bottom: 15px;
   }
   
   /* List styles */
   ul {
     color: #666;
     margin-left: 20px;
+    margin-bottom: 15px;
   }
   
   /* Footer styles */
   footer {
-    background-color: #f0f0f0;
+    background-color: #333;
+    color: #fff;
     padding: 10px;
     text-align: center;
   }
@@ -34,6 +41,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    margin-top: 10px;
   }
   
   .footer-icons i {
@@ -42,5 +50,41 @@ body {
   
   .footer-icons span {
     font-size: 14px;
+  }
+  
+  /* Additional Loft-style Design */
+  body {
+    background-image: url("https://example.com/loft-background.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
+  
+  footer {
+    background-color: #222;
+    padding: 20px;
+  }
+  
+  .footer-icons i {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .footer-icons span {
+    font-size: 16px;
   }
   
